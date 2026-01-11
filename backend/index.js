@@ -10,7 +10,7 @@ const cors = require('cors')
 
 app.use(cors(
   {
-    origin: ["http://localhost:5173", "https://book-shop-v1.vercel.app"],
+    origin: ["http://localhost:5173", "https://book-shop-frontend-bice.vercel.app"],
   }
 ));
 app.use(express.json());
